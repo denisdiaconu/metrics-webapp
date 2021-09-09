@@ -2,7 +2,6 @@
 import './style/Details.css';
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 
 function Details() {
   const { id } = useParams();
@@ -12,7 +11,6 @@ function Details() {
   console.log(animeO);
   return (
     <div className="animeInfo">
-      <Link to="/">Go Back</Link>
       <div>
           <img src={animeO.image} alt="anime" />
           <h2>{animeO.title}</h2>
@@ -27,7 +25,7 @@ function Details() {
           </li>
       </ul>
     </div>
-  );
+  )
 }
 
 export default Details;
