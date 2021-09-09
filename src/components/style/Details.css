@@ -59,11 +59,10 @@
 
 .infoDown > div {
   width: 100%;
-  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  column-gap: 10px;
   list-style-type: none;
 }
 
@@ -96,5 +95,16 @@
 }
 
 .light {
+  background-color: #4369b2;
+  height: 70px;
+}
+
+.lightSp {
   background-color: #5586e1;
+  height: auto;
+}
+
+.lightS {
+  background-color: #5586e1;
+  height: 70px;
 }

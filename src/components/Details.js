@@ -24,15 +24,15 @@ function Details() {
         <p>More Info</p>
       </div>
       <div className="infoDown">
-        <div className="light">
+        <div className="lightSp">
           <p className="newP">Synopsis:</p>
           <p className="ptagSpecial">{animeO.synopsis}</p>
         </div>
-        <div>
+        <div className="light">
           <p className="newP">Score:</p>
           <p className="ptagSpecial">{animeO.score}</p>
         </div>
-        <div className="light">
+        <div className="lightS">
           <p className="newP">Episodes:</p>
           <p className="ptagSpecial">{animeO.episodes}</p>
         </div>
