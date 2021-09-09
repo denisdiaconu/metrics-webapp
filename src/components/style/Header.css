@@ -24,17 +24,6 @@ nav > div > div {
   color: rgb(255, 255, 255);
 }
 
-.dropbtn {
-  width: 100%;
-  color: rgb(255, 255, 255);
-  height: 100%;
-  background-color: #4369b2;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
 i {
   font-size: 23px;
 }
@@ -54,49 +43,21 @@ i {
   color: #4369b2;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+.menuAll {
+  height: auto;
+}
+
+.dropCont {
   width: 20vw;
+  background-color: #4369b2 !important;
 }
 
-button:hover {
-  background-color: rgb(255, 255, 255);
-  color: #4369b2;
-}
-
-.dropdown-content {
+.toggleIt {
   width: 100%;
-  height: 100%;
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  z-index: 1;
+  background-color: #4369b2 !important;
+  border: none !important;
 }
 
-.dropdown-content button {
-  color: #4369b2;
-  background-color: rgb(255, 255, 255);
-  border: none;
-  text-decoration: none;
-  display: block;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-}
-
-.dropdown-content button:hover {
-  background-color: #4369b2;
-  color: rgb(255, 255, 255);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #fff;
-}
-
-@media only screen and (max-width: 600px) {
+.toggleIt:focus {
+  box-shadow: none !important;
 }

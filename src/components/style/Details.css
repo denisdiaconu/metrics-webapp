@@ -1,7 +1,100 @@
 .animeInfo {
-  padding: 0;
-  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.specialList {
+  display: flex;
+  background-color: #5586e1;
+}
+
+.specialList > div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.specialList > div > img {
+  height: 90%;
+  width: 90%;
+  max-width: 400px;
+}
+
+.specialList > div > h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  width: 50%;
+}
+
+.titleCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleCont > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(213, 206, 252);
+  width: 70%;
+  font-size: 15px;
+}
+
+.contLev {
   background-color: #4369b2;
   width: 100%;
+  height: 25px;
+  display: flex;
+  text-align: start;
+}
+
+.infoDown {
+  width: 100%;
+  list-style-type: none;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoDown > div {
+  width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.contLev > p {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.infoDown > div > p {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.ptag {
+  margin-right: 20px;
+}
+
+.ptagSpecial {
+  margin-right: 20px;
+  font-size: 17px;
+  text-align: start;
+}
+
+.newP {
+  margin-left: 20px;
+}
+
+.light {
+  background-color: #5586e1;
 }

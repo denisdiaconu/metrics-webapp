@@ -11,21 +11,34 @@ function Details() {
   console.log(animeO);
   return (
     <div className="animeInfo">
-      <div>
+      <div className="specialList">
+        <div className="imageCont">
           <img src={animeO.image} alt="anime" />
+        </div>
+        <div className="titleCont">
           <h2>{animeO.title}</h2>
+          <a href={animeO.url}>More Information here!</a>
+        </div>
       </div>
-      <ul>
-          <li>{animeO.synopsis}</li>
-          <li>
-              <div>
-                  <p>Score: {animeO.score}</p>
-                  <p>Episodes: {animeO.episodes}</p>
-              </div>
-          </li>
-      </ul>
+      <div className="contLev">
+        <p>More Info</p>
+      </div>
+      <div className="infoDown">
+        <div className="light">
+          <p className="newP">Synopsis:</p>
+          <p className="ptagSpecial">{animeO.synopsis}</p>
+        </div>
+        <div>
+          <p className="newP">Score:</p>
+          <p className="ptagSpecial">{animeO.score}</p>
+        </div>
+        <div className="light">
+          <p className="newP">Episodes:</p>
+          <p className="ptagSpecial">{animeO.episodes}</p>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Details;
