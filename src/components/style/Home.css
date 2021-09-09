@@ -135,7 +135,8 @@
 }
 
 .animeCard > img {
-  width: 20vw;
+  width: 100px;
+  height: 150px;
 }
 
 .contLink {
@@ -147,4 +148,24 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .animeDisplay > div {
+    width: 33.3333%;
+  }
+
+  .animeCard > div > h3 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .animeDisplay > div {
+    width: 25%;
+  }
+
+  .animeCard > div > h3 {
+    font-size: 23px;
+  }
 }
