@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const animeUrl = 'https://api.jikan.moe/v3';
-const animeUrlFilter = 'search/anime?q=&order_by=members&sort=desc&page=1&limit=20';
+const animeUrlFilter = 'search/anime?q=&order_by=members&sort=desc&page=1&limit=19';
 
 const getAnime = async () => await axios.get(`${animeUrl}/${animeUrlFilter}`).then((result) => {
   const anime = [];

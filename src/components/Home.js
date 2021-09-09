@@ -19,12 +19,16 @@ function Home() {
       <div className="animeContainer">
         <div className="animeDisplay">
           {animeDisplay.map((element) => (
-            <Link key={element.id} to={`/details/${element.id}`}>
-              <div className="animeCard">
-                <h3>{element.title}</h3>
-                <img src={element.image} alt="anime" />
-              </div>
-            </Link>
+            <div key={element.id}>
+              <Link className="contLink" to={`/details/${element.id}`}>
+                <div className="animeCard">
+                  <img src={element.image} alt="anime" />
+                  <div>
+                    <h3>{element.title}</h3>
+                  </div>
+                </div>
+              </Link>
+            </div>
           ))}
         </div>
       </div>

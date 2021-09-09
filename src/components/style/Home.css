@@ -1,0 +1,150 @@
+.animeContainer {
+  width: 100%;
+  height: auto;
+}
+
+.animeCard > div {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.animeDisplay {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.animeDisplay > div {
+  width: 50%;
+  height: auto;
+}
+
+.animeDisplay > div:nth-child(1) {
+  width: 100%;
+  background-color: #5586e1;
+  border-bottom: 30px solid #4369b2;
+}
+
+.animeDisplay > div:nth-child(2) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(5) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(6) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(9) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(10) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(13) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(14) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(17) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(18) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(21) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(22) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(25) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(26) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(29) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(30) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(33) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(34) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(37) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(38) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(41) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(42) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(45) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(46) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(49) {
+  background-color: #5586e1;
+}
+
+.animeDisplay > div:nth-child(50) {
+  background-color: #5586e1;
+}
+
+.animeCard {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.animeCard > img {
+  width: 20vw;
+}
+
+.contLink {
+  text-decoration: none;
+}
+
+.animeCard > div > h3 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
