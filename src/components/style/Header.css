@@ -1,0 +1,63 @@
+nav {
+  display: flex;
+  width: 100%;
+  height: 55px;
+  align-items: center;
+  background-color: #4369b2;
+  justify-content: space-between;
+}
+
+nav > div {
+  height: 100%;
+  display: flex;
+}
+
+nav > div > div {
+  height: 100%;
+}
+
+.link {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+i {
+  font-size: 23px;
+}
+
+.specialButton {
+  color: rgb(255, 255, 255);
+  background-color: #4369b2;
+  border: none;
+  width: 20vw;
+  height: 100%;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.specialButton:hover > .link > i {
+  color: #4369b2;
+}
+
+.menuAll {
+  height: auto;
+}
+
+.dropCont {
+  width: 20vw;
+  background-color: #4369b2 !important;
+}
+
+.toggleIt {
+  width: 100%;
+  background-color: #4369b2 !important;
+  border: none !important;
+}
+
+.toggleIt:focus {
+  box-shadow: none !important;
+}

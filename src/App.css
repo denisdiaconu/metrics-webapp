@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
