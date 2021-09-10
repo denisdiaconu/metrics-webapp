@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/metrics-webapp/static/css/main.a606ff1e.chunk.css",
-    "main.js": "/metrics-webapp/static/js/main.f33de13c.chunk.js",
-    "main.js.map": "/metrics-webapp/static/js/main.f33de13c.chunk.js.map",
+    "main.js": "/metrics-webapp/static/js/main.1930522a.chunk.js",
+    "main.js.map": "/metrics-webapp/static/js/main.1930522a.chunk.js.map",
     "runtime-main.js": "/metrics-webapp/static/js/runtime-main.20a7962a.js",
     "runtime-main.js.map": "/metrics-webapp/static/js/runtime-main.20a7962a.js.map",
     "static/css/2.c490997a.chunk.css": "/metrics-webapp/static/css/2.c490997a.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.c490997a.chunk.css",
     "static/js/2.824b18ff.chunk.js",
     "static/css/main.a606ff1e.chunk.css",
-    "static/js/main.f33de13c.chunk.js"
+    "static/js/main.1930522a.chunk.js"
   ]
 }
