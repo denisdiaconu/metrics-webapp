@@ -8,7 +8,6 @@ function Details() {
   const { animeReducer } = useSelector((state) => state);
   const { anime } = animeReducer;
   const animeO = anime.find((anime) => anime.id == id);
-  console.log(animeO);
   return (
     <div className="animeInfo">
       <div className="specialList">
