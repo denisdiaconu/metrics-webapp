@@ -1,13 +1,80 @@
+# Metrics-Web-App
+
+This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux.
+
+## Built With
+
+- JavaScript
+- HTML
+- CSS
+- Webpack
+- Jest
+- react
+- redux
+
+![Home](https://github.com/denisdiaconu/metrics-webapp/blob/feature/src/components/img/screen.png)
+
+## 🔴 Live <a name = "here"></a>
+**Click [here](https://denisdiaconu.github.io/metrics-webapp/) in order to see the Live of this project.**
 
 
-    /anime/1/characters_staff - Returns the list of characters and staff
+## 🔴 Video <a name = "here"></a>
+**Click [here](https://www.loom.com/share/e6046ccc7ce84009b69b8e90e1737e62) in order to see the video of this project.**
 
-    /anime/1/episodes - Defaults to the 1st page
 
-    /anime/1/episodes/1 - Same as above
+## Getting Started
 
-    /anime/1/episodes/2 - Returns 2nd page if there's any
+To get a local copy up and running follow these simple example steps on the command line.
+> Clone the project from it's github repo.
+```bash
 
-https://api.jikan.moe/v3/search/anime?q=&order_by=members&sort=desc&page=1&limit=20
+  $ git clone https://github.com/denisdiaconu/metrics-webapp.git
+  
+```
 
-this is gonna be api
+> Change directory to the root of project
+```bash
+
+  $ cd metrics-webapp
+  
+  ```
+  
+> Install all dev dependencies
+  ```bash
+
+  $ npm install
+
+```
+
+> Run the server
+  ```bash
+
+  $ npm start
+
+```
+
+> Run the test
+  ```bash
+
+  $ npm test
+
+```
+
+## Authors
+
+👤 **Denis Andrei Diaconu**
+
+- GitHub: [@DenisDiaconu](https://github.com/denisdiaconu)
+- Twitter: [@DenisAndreiDia1](https://twitter.com/DenisAndreiDia1)
+- LinkedIn: [Denis Diaconu](https://www.linkedin.com/in/denis-diaconu-1394091b7/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Acknowledgments
+- [NelsoSakwa](https://www.behance.net/sakwadesignstudio) For the design.
+
+## Show your support
+
+Give a ⭐️ if you like this project!
