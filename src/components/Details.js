@@ -1,4 +1,3 @@
-/* eslint-disable */
 import './style/Details.css';
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
@@ -7,7 +6,9 @@ function Details() {
   const { id } = useParams();
   const { animeReducer } = useSelector((state) => state);
   const { anime } = animeReducer;
+  /* eslint-disable eqeqeq */
   const animeO = anime.find((anime) => anime.id == id);
+  /* eslint-enable eqeqeq */
   return (
     <div className="animeInfo">
       <div className="specialList">
