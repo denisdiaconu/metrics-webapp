@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/metrics-webapp/static/css/main.a606ff1e.chunk.css",
+    "main.js": "/metrics-webapp/static/js/main.f33de13c.chunk.js",
+    "main.js.map": "/metrics-webapp/static/js/main.f33de13c.chunk.js.map",
+    "runtime-main.js": "/metrics-webapp/static/js/runtime-main.20a7962a.js",
+    "runtime-main.js.map": "/metrics-webapp/static/js/runtime-main.20a7962a.js.map",
+    "static/css/2.c490997a.chunk.css": "/metrics-webapp/static/css/2.c490997a.chunk.css",
+    "static/js/2.824b18ff.chunk.js": "/metrics-webapp/static/js/2.824b18ff.chunk.js",
+    "static/js/2.824b18ff.chunk.js.map": "/metrics-webapp/static/js/2.824b18ff.chunk.js.map",
+    "index.html": "/metrics-webapp/index.html",
+    "static/css/2.c490997a.chunk.css.map": "/metrics-webapp/static/css/2.c490997a.chunk.css.map",
+    "static/css/main.a606ff1e.chunk.css.map": "/metrics-webapp/static/css/main.a606ff1e.chunk.css.map",
+    "static/js/2.824b18ff.chunk.js.LICENSE.txt": "/metrics-webapp/static/js/2.824b18ff.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20a7962a.js",
+    "static/css/2.c490997a.chunk.css",
+    "static/js/2.824b18ff.chunk.js",
+    "static/css/main.a606ff1e.chunk.css",
+    "static/js/main.f33de13c.chunk.js"
+  ]
+}
