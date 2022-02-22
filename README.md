@@ -14,13 +14,6 @@ This React capstone project is about building a mobile web application to check 
 
 ![Home](https://github.com/denisdiaconu/metrics-webapp/blob/feature/src/components/img/screen.png)
 
-## 🔴 Live <a name = "here"></a>
-**Click [here](https://denisdiaconu.github.io/metrics-webapp/) in order to see the Live of this project.**
-
-
-## 🔴 Video <a name = "here"></a>
-**Click [here](https://www.loom.com/share/e6046ccc7ce84009b69b8e90e1737e62) in order to see the video of this project.**
-
 
 ## Getting Started
 
